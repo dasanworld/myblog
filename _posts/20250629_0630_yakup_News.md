@@ -1,0 +1,54 @@
+---
+title: "20250629 0630 yakup News"
+date: 2025-06-29 06:30:56 +0900
+---
+
+# 약업닷컴
+- 보건의약계를 대표하는 전문신문
+## 주요 기사
+
+### [신약, 꼭 10년 걸려야 하나요? 로킷헬스케어 'AI'로 의료 공식 깨다](https://www.yakup.com/news/index.html?mode=view&nid=312435)
+#### AI 기반 3D 바이오프린팅 기술로 기존 의료 시스템의 시간, 비용, 규제 한계를 극복하는 방법에 대해 다룹니다.
+
+### [새 정부 ‘필수의약품 수급불안 해소’ 법제화 추진…어떻게 논의될까](https://www.yakup.com/news/index.html?mode=view&cat=11&nid=312433)
+#### 복지부는 수급 불안정 의약품 정의와 향후 위원회 구성 등을 본격적으로 논의할 예정입니다.
+
+### [콜마BNH 윤여원 대표, 윤상현 부회장 상대 법정대응](https://www.yakup.com/news/index.html?mode=view&cat=12&nid=312453)
+#### 심문기일은 7월 2일이며, 콜마그룹 윤동한 회장도 보조참가 신청을 했습니다.
+
+### [엔케이맥스, 최대주주 일주일 만에 'NKGen Biotech'으로 변경](https://www.yakup.com/news/index.html?mode=view&cat=12&nid=312439)
+#### 제3자배정 유상증자 참여로 경영참여 목적의 지분 인수를 진행합니다.
+
+### [동성제약, “악의적 음해 지속..회생 방해 행위 단호히 대응”](https://www.yakup.com/news/index.html?mode=view&cat=12&nid=312462)
+#### 법적 절차에 따라 성실히 대응하겠다는 입장을 밝혔습니다.
+
+### [압타머사이언스, 간암신약 ‘AST-201’ 빠른 임상 속도..글로벌 공동개발 신호탄](https://www.yakup.com/news/index.html?mode=view&cat=12&nid=312460)
+#### 임상 1상에서 3개월 만에 코호트 3단계에 진입하며 기술이전 논의 속도가 증가하고 있습니다.
+
+### [유럽연합, 중국산 의료기 공개입찰 참여 금지...6월 30일 시행](https://www.yakup.com/news/index.html?mode=view&cat=12&nid=312492)
+#### 중국 기업의 EU 의료기기 공공조달 참여가 제한됩니다.
+
+### [신풍제약, '유행성 RNA 바이러스 감염질환 예방·치료용 조성물' 특허 취득](https://www.yakup.com/news/index.html?mode=view&cat=12&nid=312494)
+#### 코로나바이러스감염증-19 예방 및 치료에 사용될 약제학적 조성물에 대한 특허를 취득했습니다.
+
+### [김남주바이오 "증상 완화 넘어 근본 개선"…약국 맞춤 건기식 솔루션](https://www.yakup.com/news/index.html?mode=view&cat=17&nid=312429)
+#### 한방 원리 기반의 전신 개선 솔루션을 제공합니다.
+
+### [K-뷰티, 중국 618 쇼핑 페스티벌서 '참패'](https://www.yakup.com/news/index.html?mode=view&cat=12&nid=312432)
+#### 뷰티 부문에서 63% 급등했지만, 로컬 및 수입 브랜드의 동반 성장이 이루어졌습니다.
+
+## 실시간 인기 검색어
+- [msd](https://www.yakup.com/search/index.html?csearch_word=msd)
+- [동물](https://www.yakup.com/search/index.html?csearch_word=%EB%8F%99%EB%AC%BC)
+- [HLB](https://www.yakup.com/search/index.html?csearch_word=HLB)
+
+## 기사 분류
+- [정책](https://www.yakup.com/news/index.html?cat=11)
+- [제약·바이오](https://www.yakup.com/news/index.html?cat=12)
+- [유통](https://www.yakup.com/news/index.html?cat=12&cat2=125)
+- [뷰티](https://www.yakup.com/news/index.html?cat=12&cat2=122)
+- [건강기능식품](https://www.yakup.com/news/index.html?cat=12&cat2=123)
+- [의료기기](https://www.yakup.com/news/index.html?cat=12&cat2=124)
+- [병원·의료](https://www.yakup.com/news/index.html?cat=13)
+- [약사·약학](https://www.yakup.com/news/index.html?cat=17)
+- [글로벌](https://www.yakup.com/news/index.html?cat=16)
