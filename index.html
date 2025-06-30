@@ -5,33 +5,28 @@ title: My Blog
 
 <h2>오늘 포스트</h2>
 <ul>
-  {% assign today = "now" | date: "%Y%m%d" %}
-  {% assign today_count = 0 %}
-  {% for post in site.posts %}
-    {% assign post_date = post.date | date: "%Y%m%d" %}
-    {% if post_date == today %}
-      {% assign today_count = today_count | plus: 1 %}
+  {% assign today = 'now' | date: "%Y-%m-%d" %}
+  {% assign todays_posts = site.posts | where_exp:"post","post.date | date: '%Y-%m-%d' == today" %}
+  {% if todays_posts.size > 0 %}
+    {% for post in todays_posts %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
-        <span>{{ post.date | date: "%H:%M" }}</span>
+        <span>{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
       </li>
-    {% endif %}
-  {% endfor %}
-  {% if today_count == 0 %}
-    <li>오늘 포스트가 없습니다.</li>
+    {% endfor %}
+  {% else %}
+    <li>오늘은 새 포스트가 없습니다!</li>
   {% endif %}
 </ul>
 
 <h2>이전 포스트</h2>
 <ul>
-  {% assign today = "now" | date: "%Y%m%d" %}
   {% for post in site.posts %}
-    {% assign post_date = post.date | date: "%Y%m%d" %}
-    {% if post_date != today %}
+    {% unless post.date | date: "%Y-%m-%d" == today %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         <span>{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
       </li>
-    {% endif %}
+    {% endunless %}
   {% endfor %}
 </ul>
