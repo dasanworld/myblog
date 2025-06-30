@@ -8,7 +8,7 @@ title: My Blog
   {% assign recent_posts = site.posts | slice: 0, 10 %}
   {% for post in recent_posts %}
     <li>
-      <a href="{{ site.baseurl  }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}>{{ post.title }}"></a>
       <span>{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
     </li>
   {% endfor %}
@@ -19,7 +19,7 @@ title: My Blog
   {% assign other_posts = site.posts | slice: 10, site.posts.size %}
   {% for post in other_posts %}
     <li>
-      <a href="{{ site.baseurl  }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}>{{ post.title }}"></a>
       <span>{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
     </li>
   {% endfor %}
