@@ -4,6 +4,10 @@ title: My Blog
 ---
 
 <h2>오늘 포스트</h2>
+
+{% assign today = "now" | date: "%Y-%m-%d" %}
+<p>오늘 날짜: {{ today }}</p>
+
 <ul>
   {% assign today = "now" | date: "%Y-%m-%d" %}
   <p>오늘 날짜(today 변수 값): {{ today }}</p>
