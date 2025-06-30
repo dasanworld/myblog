@@ -6,6 +6,7 @@ title: My Blog
 <h2>오늘 포스트</h2>
 <ul>
   {% assign today = "now" | date: "%Y-%m-%d" %}
+  <p>오늘 날짜(today 변수 값): {{ today }}</p>
   {% assign today_posts = site.posts | where_exp: "post", "post.date | date: '%Y-%m-%d' == today" %}
   {% if today_posts.size > 0 %}
     {% for post in today_posts %}
