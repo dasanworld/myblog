@@ -1,2 +1,5 @@
 title: My Blog
 theme: minima
+
+paginate: 12
+paginate_path: "/myblog/page:num/"
