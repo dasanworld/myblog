@@ -1,5 +1,4 @@
 title: My Blog
 theme: minima
-
-paginate: 12
-paginate_path: "/myblog/page:num/"
+permalink: /:year/:month/:day/:title.html
+baseurl: "/myblog"
