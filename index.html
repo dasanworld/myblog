@@ -5,17 +5,17 @@ title: My Blog
 
 <h2>오늘 포스트</h2>
 <ul>
-  {% assign today = 'now' | date: "%Y-%m-%d" %}
-  {% assign todays_posts = site.posts | where_exp:"post","post.date | date: '%Y-%m-%d' == today" %}
-  {% if todays_posts.size > 0 %}
-    {% for post in todays_posts %}
+  {% assign today = "now" | date: "%Y-%m-%d" %}
+  {% assign today_posts = site.posts | where_exp: "post", "post.date | date: '%Y-%m-%d' == today" %}
+  {% if today_posts.size > 0 %}
+    {% for post in today_posts %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         <span>{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
       </li>
     {% endfor %}
   {% else %}
-    <li>오늘은 새 포스트가 없습니다!</li>
+    <li>오늘 포스트가 없습니다.</li>
   {% endif %}
 </ul>
 
