@@ -1,9 +1,9 @@
 title:              Clean Blog
-email:              your-email@example.com
+email:              sphotoman@naver.com
 description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+author:             Bryan S
+baseurl:            ""
+url:                "https://dasanworld.github.io"
 
 # Social Profiles
 twitter_username:   SBootstrap
@@ -18,7 +18,7 @@ google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 # Build settings
 markdown:           kramdown
 paginate:           5
-paginate_path:      "/posts/page:num/"
+paginate_path:      "/_posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
